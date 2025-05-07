@@ -82,7 +82,7 @@ useEffect(() => {
         className='cursor-pointer'
         onChange={(e) => (setLength(e.target.value))}
         />
-         <label htmlFor='lengthInput'>Length: {length}</label>
+        <label htmlFor='lengthInput'>Length: {length}</label>
       </div>
       <div className='flex items-center gap-x-2'>
         <input 
